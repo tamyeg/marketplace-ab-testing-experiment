@@ -1,0 +1,3 @@
+variant,users,purchasers,listing_clicks,gross_order_value_eur,refunds,purchase_conversion,click_through,gross_value_per_user_eur,refunds_per_purchaser
+control,15000,1199,4958,29132.430000,49,0.079933,0.330533,1.942162,0.040867
+treatment,15000,1358,5297,33885.680000,70,0.090533,0.353133,2.259045,0.051546

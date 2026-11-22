@@ -1,0 +1,29 @@
+{
+  "experiment": "Synthetic item-recommendation entry point",
+  "hypothesis": "New entry point increases 7-day purchase conversion per randomized user",
+  "primary_metric": "purchased_7d",
+  "analysis_unit": "randomized user",
+  "alpha": 0.05,
+  "n_total": 30000,
+  "primary": {
+    "control_rate": 0.07993333333333333,
+    "treatment_rate": 0.09053333333333333,
+    "absolute_lift_pp": 1.0599999999999998,
+    "relative_lift_pct": 13.261050875729774,
+    "ci_lower_pp": 0.42817164083899906,
+    "ci_upper_pp": 1.6918283591610006,
+    "z_statistic": 3.2875820068489006,
+    "p_value": 0.0010105175307990072
+  },
+  "balance_prior_buyer_share": {
+    "control": 0.4378666666666667,
+    "treatment": 0.4368666666666667
+  },
+  "decision": "Evidence of a positive conversion lift in this simulated sample",
+  "cautions": [
+    "Synthetic observations; no real Vinted users or transactions",
+    "Results are illustrative, not externally validated",
+    "Country comparisons are exploratory and not corrected for multiple testing",
+    "Order value and refunds are descriptive secondary/guardrail metrics"
+  ]
+}

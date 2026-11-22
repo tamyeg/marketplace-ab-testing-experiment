@@ -1,0 +1,9 @@
+country,variant,users,purchasers,conversion
+DE,control,4501,351,0.077983
+DE,treatment,4570,425,0.092998
+FR,control,2927,229,0.078237
+FR,treatment,3054,274,0.089718
+LT,control,3024,269,0.088955
+LT,treatment,2912,284,0.097527
+PL,control,4548,350,0.076957
+PL,treatment,4464,375,0.084005
